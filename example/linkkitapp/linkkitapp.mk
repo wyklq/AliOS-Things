@@ -5,7 +5,7 @@ GLOBAL_DEFINES      += MQTT_DIRECT ALIOT_DEBUG IOTX_DEBUG USE_LPTHREAD HAL_ASYNC
 
 $(NAME)_SOURCES     := linkkit-example.c linkkit_app.c linkkit_export.c
 
-$(NAME)_COMPONENTS := protocol.linkkit.iotkit connectivity.mqtt fota netmgr framework.common  protocol.linkkit.cm protocol.linkkit.dm protocol.linkkit.alcs ywss4linkkit
+$(NAME)_COMPONENTS := protocol.linkkit.iotkit connectivity.mqtt fota netmgr framework.common  protocol.linkkit.cm protocol.linkkit.dm protocol.linkkit.alcs
 
 ifeq ($(LWIP),1)
 $(NAME)_COMPONENTS  += protocols.net

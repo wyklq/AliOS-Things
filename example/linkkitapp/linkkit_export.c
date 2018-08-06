@@ -7,7 +7,7 @@
 #include "lite_queue.h"
 #include "linkkit_export.h"
 #include "class_interface.h"
-
+#define  __LONG_LONG_MAX__  ((unsigned long long )-1)
 #ifdef CM_SUPPORT_MULTI_THREAD
 #include "iot_import.h"
 #endif /* CM_SUPPORT_MULTI_THREAD */
